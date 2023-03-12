@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>취미 목록</title> 
+    </head>
+    <body>
+        <h2>나의 취미 목록</h2>
+        <ul>
+            <li>영화감상하기</li>
+            <li>원데이 클래스 체험하기</li>
+            <li>운동하기</li>
+    </body>
+</html>
