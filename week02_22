@@ -1,10 +1,11 @@
+<!DOCTYPE html>
 <html>
-<head>
-    <title>나의 취미 설명</tilte>
-</head>
-<body>
-    <h2>나의 취미는</h2>
-    <p>영화감상하기와
-    <br>원데이클래스 체험하기이다.</p>
-</body>
+    <head>
+        <title>나의 취미 설명</tilte>
+    </head>
+    <body>
+        <h2>나의 취미는</h2>
+        <p>영화감상하기와
+        <br>원데이클래스 체험하기이다.</p>
+    </body>
 </html>
