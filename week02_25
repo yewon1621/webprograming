@@ -24,13 +24,13 @@
             <tr>
                 <td>5</td> <td rowspan="2">멀티미디어개론</td> <td rowspan="3">모바일프로그래밍</td> <td></td> <td></td> <td rowspan="2">컴퓨터응용</td>
             </tr>
-             <tr>
+            <tr>
                 <td>6</td> <td></td> <td></td>
             </tr>
-             <tr>
+            <tr>
                 <td>7</td> <td></td> <td></td> <td></td> <td></td>
             </tr>
-             <tr>
+            <tr>
                 <td>8</td> <td></td> <td></td> <td></td> <td></td> <td></td>
             </tr>    
     </body>
