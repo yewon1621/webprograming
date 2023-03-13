@@ -1,5 +1,4 @@
-<!DOCTYPE>
-<html>
+<!DOCTYPE><html>
     <head>
         <title>4-1 시간표</title>
     </head>
@@ -28,7 +27,7 @@
                 <td>6</td> <td rowspan="2">드론제작운용</td> <td></td> <td></td>
             </tr>
             <tr>
-                <td>7</td> <td rowspan="3">드론시뮬레이션기초</td> <td></td> <td></td> <td></td> <td></td>
+                <td>7</td> <td rowspan="3">드론시뮬레이션기초</td> <td></td> <td></td> <td></td> 
             </tr>
             <tr>
                 <td>8</td> <td></td> <td></td> <td></td> <td></td> 
