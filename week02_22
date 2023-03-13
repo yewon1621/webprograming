@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>나의 취미 설명</title>
+        <title>나의 취미 소개하기</title>
     </head>
     <body>
-        <h2>나의 취미는</h2>
-        <p>영화감상하기와
-        <br>원데이클래스 체험하기이다.</p>
-    </body>
+        <h2>나의 취미 소개하기</h2>
+        <h4>나의 취미는</h4>
+        <p><strong>영화감상</strong> &amp; <mark>원데이 클래스 체험</mark>하기</p>
+        <p>와 <small>운동</small>과<sub>만화감상</sub><sup>이다.</sup></p>
+        <!-- &amp;를 사용하여 & 특수문자를 사용함 -->
+    </body> 
 </html>
