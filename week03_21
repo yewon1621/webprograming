@@ -1,10 +1,14 @@
+<!DOCTYPE html>
 <html>
-<head>
-    <title>예제 21번 문제</title>
+    <head>
+        <title>예제 21번 문제</title>
+        <meta charset="UTF-8">
+    <head>
     <body>
-    <h3>취미 소개 페이지로 이동</h3>
-    <ul>
-        <li> <a href=""  target="_blank" title="취미 소개 페이지">취미소개</a></li>
-    </ul>
+        <h3>취미 소개 페이지로 이동</h3>
+        <ul>
+            <li> <a href=""  target="_blank" title="취미 소개 페이지">취미소개</a></li>
+        </ul>
     </body>
-</head>
+    </head>
+</html>
