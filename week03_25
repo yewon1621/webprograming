@@ -1,0 +1,16 @@
+<html>
+<head>
+    <title>이미지프레임과 링크</title>
+</head>
+<body>
+    <h2>고양이의 모습</h2>
+    <p>야옹야옹 귀여운 고양이의 모습을 보여주세요.</p>
+    <table border>
+    <tr>
+        <td><a href="D:\cat1.jpg" target="intro"><img src="D:\cat1.jpg" width="150" height="100"></a></td>
+        <td><a href="D:\cat2.jpg" target="intro"><img src="D:\cat2.jpg" width="150" height="100"></a></td>
+        <td><a href="D:\cat3.jpg" target="intro"><img src="D:\cat3.jpg" width="150" height="100"></a></td>
+    </tr>
+    <iframe src="" name="intro" width="520" height="390"></iframe>
+</body>
+</html>
