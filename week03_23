@@ -1,10 +1,11 @@
+<!DOCTYPE html>
 <html>
-<head>
-    <title>나의 취미와 관련된 youtube 영상</title>
-</head>
-<body>
-    <h3>취미관련 영상 삽입</h3>
-    <embed width="560" height="320"
-    src="https://youtu.be/wO-N82Gaifg" frameborder="0" allowfullscreen></embed>
-</body>
+    <head>
+        <title>나의 취미와 관련된 youtube 영상</title>
+        <meta charset="UTF-8">
+    </head>
+    <body>
+        <h3>취미관련 영상 삽입</h3>
+        <embed width="560" height="320" src="https://youtu.be/wO-N82Gaifg" frameborder="0" allowfullscreen></embed>
+    </body>
 </html>
