@@ -6,6 +6,6 @@
     </head>
     <body>
         <h3>취미관련 영상 삽입</h3>
-        <embed width="560" height="320" src="https://youtu.be/wO-N82Gaifg" frameborder="0" allowfullscreen></embed>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/XNpJPogknkE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
     </body>
 </html>
