@@ -1,0 +1,13 @@
+<html>
+<head>
+    <title>연습문제</title>
+    <style type="text/css">
+        #hh {background-color: #82ff96 } 
+    </style>
+</head>
+<body>
+    <h2>header</h2>
+    <p>header의 두번째 제목입니다.</p>
+    <p>메뉴 1   메뉴 2   메뉴 3   메뉴 4   메뉴 5</p>
+</body>
+</html>
