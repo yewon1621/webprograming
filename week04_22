@@ -1,0 +1,43 @@
+    <head>
+        <title>4-1 시간표</title>
+        <style type="text/css">
+            #first { background-color: #99ccff }
+            #second { backround-color: #90ff90 }
+            #third { background-color: #ffffcc }
+            #fourth { background-color: #ffb8d8 }
+            #books { table-layout: outo; width: 90%; text-align:center; }
+            #books caption { font-size: 14pt; font-weight: bold; margin: 0.5em }
+        </style>
+    </head>
+    <body>
+        <table border="1" id="books">
+            <caption>4-1 시간표</caption>
+            <tr>
+                <th>교시</th> <th>월</th> <th>화</th> <th>수</th> <th>목</th> <th>금</th>
+            </tr>
+            <tr>
+                <td>1</td> <td id="first" rowspan="2">웹프로글래밍</td> <td></td> <td id="second" rowspan="2">게임엔진</td> <td></td> <td id="first" rowspan="2">웹프로그래밍</td>
+            </tr>
+            <tr>
+                <td>2</td> <td></td> <td></td> 
+            </tr>
+            <tr>
+                <td>3</td> <td></td> <td></td> <td></td> <td></td> <td></td>
+            </tr>
+            <tr>
+                <td>4</td>  <td></td> <td></td> <td></td> <td></td> <td></td>
+            </tr>
+            <tr>
+                <td>5</td> <td id="second" rowspan="2">게임엔진</td> <td></td> <td id="third" rowspan="2">드론제작운용</td> <td></td> <td></td>
+            </tr>
+            <tr>
+                <td>6</td> <td id="third" rowspan="2">드론제작운용</td> <td></td> <td></td>
+            </tr>
+            <tr>
+                <td>7</td> <td id="fourth" rowspan="3">드론시뮬레이션기초</td> <td></td> <td></td> <td></td> 
+            </tr>
+            <tr>
+                <td>8</td> <td></td> <td></td> <td></td> <td></td> 
+            </tr>    
+    </body>
+</html>
