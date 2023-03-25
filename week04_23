@@ -2,12 +2,19 @@
 <head>
     <title>연습문제</title>
     <style type="text/css">
-        #hh {background-color: #82ff96 } 
+        #hh { background-color: #82ff96 } 
+        #rt { background-color: ebff82 }
+       ? #ta { width: 200px; float: left; }
+       ? #side { width: 500px; float: left; backgound-color: #82ff96 }
     </style>
 </head>
 <body>
-    <h2>header</h2>
-    <p>header의 두번째 제목입니다.</p>
-    <p>메뉴 1   메뉴 2   메뉴 3   메뉴 4   메뉴 5</p>
+    <h2 id="hh">header</h2>
+    <p id="hh">header의 두번째 제목입니다.</p>
+    <p id="rt">    메뉴 1   메뉴 2   메뉴 3   메뉴 4   메뉴 5</p>
+    <table border="1">
+        <tr>
+            <td><span id="rt">article 1 <br>article 1의 본문입니다.</span><hr /><br><span id="rt">article 2 <br>article 2의 본문입니다.</span></td>
+        </tr>
 </body>
 </html>
