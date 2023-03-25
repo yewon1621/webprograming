@@ -3,7 +3,7 @@
     <title>외부 스타일시트 사용하기</title>
     <link rel="stylesheet" type="text/css" href="myfont.css"/>
     #x-strong { font-family:"휴먼옛체"; font-size: 20pt; color: blue }
-    #y-style {font family:"휴먼매직체"; font-size: 20pt; color: red }
+    #y-style {font family:"휴먼매직체"; font-style: italic; font-size: 20pt; color: red }
 </head>
 <body>
     <h3>HTML 5  웹프로그래밍 입문</h3>
