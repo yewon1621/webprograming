@@ -3,7 +3,8 @@
     <title></title>
     <style type="text/css">
         h3 { font-style:italic }
-        p { font size:10pt }
+        p { font-size:10pt; }
+    </style>
 </head>
 <body>
     <h2>나의 취미 소개하기</h2>
