@@ -1,1 +1,15 @@
 <html>
+<head>
+    <title></title>
+    <style type="text/css">
+        h3 { font-style:italic }
+        p { font-size:10pt; }
+    </style>
+</head>
+<body>
+    <h2>나의 취미 소개하기</h2>
+    <h3>나의 취미는</h3>
+    <p><strong>영화감상</strong> &amp; <mark>원데이 클래스 체험</mark>하기</p>
+    <p>와 <small>운동</small>과<sub>만화감상</sub><sup>이다.</sup></p>
+</body>
+</html>
