@@ -1,0 +1,22 @@
+<html>
+    <head>
+        <meta charset="UTF-8"/>
+        <title>내부 스타일시트 사용하기</title>
+        <style type="text/css">
+            .box { 
+                margin-bottom: 15px;
+                border-width: 5px; 
+                border-style: dotted; 
+                border-color: blue; 
+                padding: 12px; }
+        </style>
+    </head>
+    <body>
+        <div class="box">
+            <p>HTML 5 웹 프로그래밍 입문</p>
+        </div>
+        <div class="box">
+            <p>CSS란 문서의 style을 정의하는 속성을 모아놓은 언어이다.</p>
+        </div>
+    </body>
+</html>
