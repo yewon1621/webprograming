@@ -3,7 +3,7 @@
     <title>연습문제 24번</title>
     <style type="text/css">
         h2 { margin-bottom: 15px; border-width: 5px; border-style: dotted; border-color: blue; padding: 12px; }
-        h3 { margin-bottom: 15px; border-width: 5px; border-style: dotted; border-color: blue; padding: 12px; }
+        #h3:hover { border-color: blue; background-color: yellow; transition: border-color 8s, background-color 8s; }
     </style>
 </head>
 <body>
