@@ -1,0 +1,20 @@
+<html>
+    <head>
+         <title>반응형웹 연습문제</title>
+         <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+         <style>
+            .divgrop { margin: 3px; }
+            @media all and (max-width: 600px) { .divgrop div { background: white; border-style: dotted; } }
+            @media all and (min-width: 600px) and (max-width:1000px) { .divgrop div { background: white; border-style: solid; } }
+            @media all and (min-width: 1000px) { .divgrop div { background: yellow; border-style: solid; } }
+         </style>
+    <body>
+        <div class="divgrop">
+             <div>1번 영역</div>
+             <div>2번 영역</div>
+             <div>3번 영역</div>
+             <div>4번 영역</div>
+             <div>5번 영역</div>
+    </body>
+    </head>
+</html>
