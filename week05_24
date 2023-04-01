@@ -2,8 +2,8 @@
 <head>
     <title>연습문제 24번</title>
     <style type="text/css">
-        h3 { font-style:italic }
-        p { font-size:10pt; }
+        h2 { margin-bottom: 15px; border-width: 5px; border-style: dotted; border-color: blue; padding: 12px; }
+        h3 { margin-bottom: 15px; border-width: 5px; border-style: dotted; border-color: blue; padding: 12px; }
     </style>
 </head>
 <body>
