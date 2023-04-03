@@ -2,11 +2,11 @@
     <head>
          <title>반응형웹 연습문제</title>
          <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-         <style>
-            .divgrop { margin: 3px; }
-            @media all and (max-width: 600px) { .divgrop div { background: white; border-style: dotted; } }
-            @media all and (min-width: 600px) and (max-width:1000px) { .divgrop div { background: white; border-style: solid; } }
-            @media all and (min-width: 1000px) { .divgrop div { background: yellow; border-style: solid; } }
+         <style type="text/css">
+            div {position: relative;}
+            @media all and (max-width: 600px) { .divgrop div { background: white; border-style: dotted; width: 80%; height: 70px; } }
+            @media all and (min-width: 600px) and (max-width:1000px) { .divgrop div { background: blue; border-style: solid; width: 40%; height:70px; display: inline-block;} }
+            @media all and (min-width: 1000px) { .divgrop div { background: purple; border-style: solid; width: 30%; height:70px; display: inline-block;} }
          </style>
     <body>
         <div class="divgrop">
@@ -15,6 +15,7 @@
              <div>3번 영역</div>
              <div>4번 영역</div>
              <div>5번 영역</div>
+        </div>
     </body>
     </head>
 </html>
