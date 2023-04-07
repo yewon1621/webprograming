@@ -9,17 +9,17 @@
                 <legend>예약자 정보</legend>
                 예약자 : <input type="text" name="p_name"/><br>
                 연락처 : <input type="tel" name="p_tel" placeholder="000-0000-0000" pattern="[0-9]{3}-[0-9]{4}-[0-9]{4}"/><br>
-                예약인원 : <input
+                예약인원 : <select name="people" size="1">
+                              <option>1명</option> <option>2명</option> <option>3명</option> <option>4명</option>
+                          </select>
             </fieldset><br>
 
             <fieldset>
                 <legend>일자 선택 및 시간 선택</legend>
-                <input type="checkbox" name="books" value="distal"/>디지털 콘텐츠
-                <input type="checkbox" name="books" value="web"/>웹 프로그래밍
-                <input type="checkbox" name="books" value="db"/>데이터베이스
-                <input type="checkbox" name="books" value="ns"/>전자출판<br>
+                <input type="datetime-local" name="last_date" min="2023-04-07">
+                <input type="time" name="time_from" min="09:00" max="22:00">
             </fieldset><br>
-
+            
             <input type="submit" value="예약"/>
             <input type="reset" value="취소"/>
         </form>
