@@ -1,0 +1,21 @@
+<html>
+    <head>
+        <title>Form  요소 - 수강과목조사</title>
+    </head>
+    <body>
+        <h3>수강과목조사</h3>
+        <form method="get" action="form_app.js">
+            이름: <input type="text" name="person"/><br>
+            학과: <input type="text" name="number"/><br>
+            학년: <input type="radio" name="age"/>1학년
+                 <input type="radio" name="age"/>2학년
+                 <input type="radio" name="age"/>3학년
+                 <input type="radio" name="age"/>4학년 이상<br>
+            수강과목: <input type="checkbox" name="books" value="it"/>IT기술의이해
+                     <input type="checkbox" name="books" value="web"/>웹프로그래밍기초
+                     <input type="checkbox" name="books" value="ui"/>UI/UX설계<br>
+            <input type="submit" value="확인"/>
+            <input type="reset" value="취소"/>
+        </form>
+    </body>
+</html>
