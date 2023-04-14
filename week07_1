@@ -1,0 +1,55 @@
+<html>
+    <head>
+        <title>실습1번</title>
+    </head>
+    <body>
+    <div class="head">서적주문양식</div>
+    <form action="">
+        <p>주문서</p>
+        <table>
+            <tr><th>책제목</th> <th>가격</th> <th>수량</th> <th>합계</th></tr>
+            <tr>
+                <td>컴퓨터와 IT기술의 이해 [개정판-2판]</td>
+                <td>27,000원</td>
+                <td> 
+                    <select name="num" size="1">
+                        <option value="count" selected>1개</option>
+                        <option value="counts" selected>2개</option>
+                    </select> 
+                </td>
+                <td><input type="text" size="6" value="0"/>원</td>
+            </tr>
+            <tr>
+                <td>소셜미디어의 이해와 활용</td>
+                <td>21,000원</td>
+                <td> 
+                    <select name="num" size="1">
+                        <option value="count" selected>1개</option>
+                        <option value="counts" selected>2개</option>
+                    </select> 
+                </td>
+                <td><input type="text" size="6" value="0"/>원</td>
+            </tr>
+            <tr>
+                <td>비지니스 정보 시스템</td>
+                <td>28,000원</td>
+                <td> 
+                    <p>1<input type="range" min="1" max="10" value="1"/>10</p>
+                </td>
+                <td><input type="text" size="6" value="0"/>원</td>
+            </tr>
+            <tr>
+                <td>합계</td>
+                <td>&nbsp;</td>
+                <td> 
+                    <p>1<input type="range" min="1" max="10" value="1"/>10</p>
+                </td>
+                <td><input type="text" size="6" value="0"/>원</td>
+            </tr>
+        </table><br />
+        <input type="button" value="합계계산" disabled/>
+        <input type="reset" value="초기화" disabled/>
+        <input type="submit" value="주문하기" disabled/>
+    </form>
+    </body>
+</html>
