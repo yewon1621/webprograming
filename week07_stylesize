@@ -1,0 +1,8 @@
+.warp { width:751px; min-height:600px; }
+header { height: 80px; }
+nav { width: 715px; }
+nav.a { height: 20px; }
+
+#login fieldset span { width: 80px; }
+#sinup fieldset span { width: 90px; }
+# order table td, th { width: 150px; height: 30px; }
