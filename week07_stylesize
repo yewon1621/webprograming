@@ -5,4 +5,8 @@ nav.a { height: 20px; }
 
 #login fieldset span { width: 80px; }
 #sinup fieldset span { width: 90px; }
-# order table td, th { width: 150px; height: 30px; }
+#order table td, th { width: 150px; height: 30px; }
+
+.booklist { height: 462px; }
+.booklist ul li { width: 150px; height: 180px; margin-left: 20px; display: flex; }
+.booklist ul li img { margin-right: 30px; height: 80px; }
