@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>실습18번 문제</title>
+    </head>
+    <body>
+        <script type="text/javascript">
+            document.write("20182563 김예원 안녕하세요!");
+        </script>
+    </body>
+</html>
