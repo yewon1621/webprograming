@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>실습21번문제</title>
+    </head>
+    <body>
+        <script type="text/javascript">
+            var row = prompt("행 개수를 입력하세요.");
+            var col = prompt("열 개수를 입력하세요.");
+
+            document.write("<table border='1px;'>")
+            for (var i = 0; i < row; i++) {
+                document.write("<tr height='50px'>");
+                for (var j = 0; j < col; j++) {
+                    document.write("<td width='50px'>");
+                }
+            }
+            document.write("</td>")
+            document.write("</tr>")
+            document.write("</table>")
+        </script>
+    </body>
+</html>
