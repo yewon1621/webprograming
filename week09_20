@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>실습20번문제 if문</title>
+    </head>
+    <body>
+        <script type="text/javascript">
+            var choice = prompt("요일을 입력하세요.", "한글 또는 영어");
+            var day1 = "일요일";
+            var day2 = "월요일";
+            var day3 = "화요일";
+            var day4 = "수요일";
+            var day5 = "목요일";
+            var day6 = "금요일";
+            var day7 = "토요일";
+            var day8 = "Sunday";
+            var day9 = "Monday";
+            var day10 = "Tuesday";
+            var day11= "Wensday";
+            var day12 = "Thursday";
+            var day13 = "Friday";
+            var day14 = "Saturday";
+
+           if(choice=="Sunday") 
+                day = day1;
+            else if (choice=="Monday") 
+                day = day2;
+            else if (choice=="Tuesday")
+                 day =  day3;
+            else if (choice=="Wensday")
+                 day =  day4;
+            else if (choice=="Thursday")
+                day =  day5;
+            else if (choice=="Friday")
+                day =  day6;
+            else if (choice=="Saturday")
+                day =  day7;
+            else if(choice=="일요일")
+                day = day8;
+            else if(choice=="월요일")
+                day = day9;
+            else if(choice=="화요일")
+                day = day10;
+            else if(choice=="수요일")
+                day = day11;
+            else if(choice=="목요일")
+                day = day12;
+            else if(choice=="금요일")
+                day = day13;
+            else if(choice=="토요일")
+                day = day14;
+            else {
+                alert("없음");
+                day="";
+            }
+           document.write(day);
+        </script>
+    </body>
+</html>
+
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>실습20번문제 switch문</title>
+    </head>
+    <body>
+        <script type="text/javascript">
+            var choice = prompt("요일을 입력하세요.", "한글 또는 영어");
+            var day1 = "일요일";
+            var day2 = "월요일";
+            var day3 = "화요일";
+            var day4 = "수요일";
+            var day5 = "목요일";
+            var day6 = "금요일";
+            var day7 = "토요일";
+            var day8 = "Sunday";
+            var day9 = "Monday";
+            var day10 = "Tuesday";
+            var day11= "Wensday";
+            var day12 = "Thursday";
+            var day13 = "Friday";
+            var day14 = "Saturday";
+
+           switch (choice) 
+           {
+                case "Sunday":
+                    day = day1;
+                    break;
+                case "Monday":
+                    day = day2;
+                    break;
+                case "Tuesday":
+                    day =  day3;
+                    break;
+                case "Wensday":
+                    day =  day4;
+                    break;
+                case "Thursday":
+                    day =  day5;
+                    break;
+                case "Friday":
+                    day =  day6;
+                    break;
+                case "Saturday":
+                    day =  day7;
+                    break;
+                case "일요일":
+                    day = day8;
+                    break;
+                case "월요일":
+                    day = day9;
+                    break;
+                case "화요일":
+                    day = day10;
+                    break;
+                case "수요일":
+                    day = day11;
+                    break;
+                case "목요일":
+                    day = day12;
+                    break;
+                case "금요일":
+                    day = day13;
+                    break;
+                case "토요일":
+                    day = day14;
+                    break;
+           }
+           document.write(day);
+        </script>
+    </body>
+</html>
