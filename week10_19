@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>실습19번문제</title>
+    </head>
+    <body>
+        <script type="text/javascript">
+           var num1 = prompt("첫번째 수를 입력하세요.");
+           var num2 = prompt("두번째 수를 입력하세요.");
+           var num3 = prompt("세번째 수를 입력하세요.");
+
+
+           document.write("최대값 : " + Math.max(num1, num2, num3)); 
+           document.write("  최소값 : " + Math.min(num1, num2, num3));
+        </script>
+    </body>
+</html>
