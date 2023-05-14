@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>실습14번문제</title>
+        <script type="text/javascript">
+            function button_append(){
+                btn = document.createElement("button");
+                btn.innerText = document.getElementById("button_name").value;
+                document.getElementById("button_area").appendChild(btn);
+            }
+        </script>
+    </head>
+    <body>
+        <input id="button_name"><button onclick="button_append();">버튼생성</button>
+        <div id="button_area"></div>
+    </body>
+</html>
