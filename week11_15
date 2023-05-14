@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>실습14번문제</title>
+        <script type="text/javascript">
+            function remove_self(event) {
+                btn = event.target;
+                document.getElementById("button_area").removeChild(btn);
+            }
+        </script>
+    </head>
+    <body>
+        <div id="button_area">
+            <input type="button" value="button 1" onclick="remove_self(event);"/>
+            <input type="button" value="button 2" onclick="remove_self(event);"/>
+            <input type="button" value="button 3" onclick="remove_self(event);"/>
+        </div>
+    </body>
+</html>
