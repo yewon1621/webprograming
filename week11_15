@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>실습14번문제</title>
+        <title>실습15번문제</title>
         <script type="text/javascript">
             function remove_self(event) {
                 btn = event.target;
