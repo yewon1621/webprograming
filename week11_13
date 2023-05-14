@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>실습13번문제</title>
+    </head>
+    <body>
+        <input id="dept" type="text" name="department" value="web programing">
+        <br/><br/>
+        <script type="text/javascript">
+            document.getElementById("dept").getAttribute("name");
+        </script>
+    </body>
+</html>
