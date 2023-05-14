@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>실습16번문제</title>
+        <script type="text/javascript">
+            
+            function button_plus() {
+                1;
+                document.getElementById("button_area").replaceChild();        
+            }
+        </script>
+    </head>
+    <body>
+        <div id="button_area">
+            <input type="button" value="1" onclick="button_plus();"/>
+            <input type="button" value="2"/>
+            <input type="button" value="3"/>
+        </div>
+    </body>
+</html>
