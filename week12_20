@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>실습20번문제</title>
+        
+    </head>
+    <body>
+        <button id="b1">innerHTML</button>
+        <button id="b2">innerHTML</button>
+        <br/>
+        <div id ="innerhtml">
+            <h1>안녕하세요</h1>
+        </div>
+        <script type="text/javascript">
+            document.getElementById("b1").onmouseover = mouseover_innerHTML;
+            document.getElementById("b2").onmouseover = mouseover_innerHTML2;
+            
+            function mouseover_innerHTML() {
+                document.getElementById("innerhtml").innerHTML = "<h1>h1 요소 추가</h1>";  
+            }
+            function mouseover_innerHTML2() {
+                document.getElementById("innerhtml").innerHTML = "<p>p 요소 추가</p>"; 
+            }
+        </script>
+    </body>
+</html>
