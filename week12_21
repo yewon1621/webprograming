@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>실습21번문제</title>
+        
+    </head>
+    <body>
+        <div id="outerBox" style="background: white; width: 550px; height: 300px;"></div>
+        outer Box:
+        <button onclick = "changeColor('outerBox','blue');">  Blue  </button>
+        <button onclick = "changeColor('outerBox','red');">  Red  </button>
+        
+        <script type="text/javascript">
+             function changeColor(id, color) {
+                document.getElementById(id).style.background = color;
+            }
+        </script>
+    </body>
+</html>
