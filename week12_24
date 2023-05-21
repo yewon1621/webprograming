@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>실습24번문제</title>
+    </head>
+    <body>
+        <div id="innerBox">
+            <img id="img1" src="dog.jpg" style="visibility: hidden;">
+            <img id="img2" src="dog2.jpg" style="visibility: hidden;">
+            <img id="img3" src="dog3.jpg" style="visibility: hidden;">
+            <img id="img4" src="dog4.jpg" style="visibility: hidden;">
+            <img id="img5" src="dog5.jpg" style="visibility: hidden;">
+            <img id="img6" src="dog.jpg" style="visibility: hidden;">
+            <img id="img7" src="dog2.jpg" style="visibility: hidden;">
+            <img id="img8" src="dog3.jpg" style="visibility: hidden;">
+            <img id="img9" src="dog4.jpg" style="visibility: hidden;">
+            <img id="img10" src="dog5.jpg" style="visibility: hidden;">
+        </div>
+        <script type="text/javascript">
+            function toggleVisibility(id) {
+                var dom = document.getElementById(id);
+
+                if (dom.style.visibility == "hidden")
+                    dom.style.visibility="visible";
+                else
+                    dom.style.visibility="hidden";
+
+            }
+        </script>
+
+        Toggle Visibility:
+        <button onclick="toggleVisibility('img1');">Image1</button>
+        <button onclick="toggleVisibility('img2');">Image2</button>
+        <button onclick="toggleVisibility('img3');">Image3</button>
+        <button onclick="toggleVisibility('img4');">Image4</button>
+        <button onclick="toggleVisibility('img5');">Image5</button>
+        <button onclick="toggleVisibility('img6');">Image6</button>
+        <button onclick="toggleVisibility('img7');">Image7</button>
+        <button onclick="toggleVisibility('img8');">Image8</button>
+        <button onclick="toggleVisibility('img9');">Image9</button>
+        <button onclick="toggleVisibility('img10');">Image10</button>
+    </body>
+</html>
