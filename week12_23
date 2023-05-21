@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>실습23번문제</title>
+        
+    </head>
+    <body>
+        <script type="text/javascript">
+            function add() {
+                var a = document.getElementById("op1").value;
+                var b = document.getElementById("op2").value;
+                document.getElementById("result").value = parseInt(a) + parseInt(b);
+            }
+            function minus() {
+                var a = document.getElementById("op3").value;
+                var b = document.getElementById("op4").value;
+                document.getElementById("result2").value = parseInt(a) - parseInt(b);
+            }
+            function mul() {
+                var a = document.getElementById("op5").value;
+                var b = document.getElementById("op6").value;
+                document.getElementById("result3").value = parseInt(a) * parseInt(b);
+            }
+            function divi() {
+                var a = document.getElementById("op7").value;
+                var b = document.getElementById("op8").value;
+                document.getElementById("result4").value = parseInt(a) / parseInt(b);
+            }
+             
+        </script>
+        <input id="op1" type="text" size="2"/>+
+        <input id="op2" type="text" size="2"/>
+        <input type="button" value="=" onclick="add();"/>
+        <input id="result" type="text" size="2"/><br/>
+
+        <input id="op3" type="text" size="2"/>-
+        <input id="op4" type="text" size="2"/>
+        <input type="button" value="=" onclick="minus();"/>
+        <input id="result2" type="text" size="2"/><br/>
+
+        <input id="op5" type="text" size="2"/>*
+        <input id="op6" type="text" size="2"/>
+        <input type="button" value="=" onclick="mul();"/>
+        <input id="result3" type="text" size="2"/><br/>
+
+        <input id="op7" type="text" size="2"/>/
+        <input id="op8" type="text" size="2"/>
+        <input type="button" value="=" onclick="divi();"/>
+        <input id="result4" type="text" size="2"/>
+    </body>
+</html>
