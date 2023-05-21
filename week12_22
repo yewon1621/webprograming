@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>실습22번문제</title>
+        
+    </head>
+    <body>
+        <script type="text/javascript">
+            function innerbtn() {
+                var input = prompt("문자열 입력하세요.");
+                document.getElementById("result").value = input;
+            }
+            
+        </script>
+        <input type="button" value="버튼" onclick="innerbtn();"/>
+        <input id="result" type="text" size="2"/>
+    </body>
+</html>
