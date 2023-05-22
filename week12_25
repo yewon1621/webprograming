@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>실습25번문제</title>
+        
+    </head>
+    <body>
+        <button id="btn">마우스 이벤트</button><br/>
+        <p id="text">마우스 이벤트 이름</p>
+
+        <script type="text/javascript">
+            document.getElementById("btn").onclick = mouseclick_innerText;
+            document.getElementById("btn").ondblclick = mousedblclick_innerText;
+            document.getElementById("btn").onmousedown = mousedown_innerText;
+            document.getElementById("btn").onmousemove = mousemove_innerText;
+            document.getElementById("btn").onmouseup = mouseup_innerText;
+            document.getElementById("btn").onmouseover = mouseover_innerText;
+            document.getElementById("btn").onmouseout = mouseout_innerText;
+
+            function mouseclick_innerText () {
+              var text = 'click';
+              document.getElementById("text").innerText='마우스 이벤트 이름 : '+text;
+            }
+            function mousedblclick_innerText () {
+              var text = 'dblclick';
+              document.getElementById("text").innerText='마우스 이벤트 이름 : '+text;
+            }
+            function mousedown_innerText () {
+              var text = 'mousedown';
+              document.getElementById("text").innerText='마우스 이벤트 이름 : '+text;
+            }
+            function mousemove_innerText () {
+              var text = 'mousmove';
+              document.getElementById("text").innerText='마우스 이벤트 이름 : '+text;
+            }
+            function mouseup_innerText () {
+              var text = 'mouseup';
+              document.getElementById("text").innerText='마우스 이벤트 이름 : '+text;
+            }
+            function mouseover_innerText () {
+              var text = 'mouseover';
+              document.getElementById("text").innerText='마우스 이벤트 이름 : '+text;
+            }
+            function mouseout_innerText () {
+              var text = 'mouseout';
+              document.getElementById("text").innerText='마우스 이벤트 이름 : '+text;
+            }
+        </script>
+    </body>
+</html>
